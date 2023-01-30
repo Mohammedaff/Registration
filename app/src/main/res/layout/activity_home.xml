@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/uu"
+    tools:context=".HomeActivity">
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/logo"-->
+<!--        android:layout_width="352dp"-->
+<!--        android:layout_height="87dp"-->
+<!--        android:text="Welcome to Charity Container Monitor"-->
+<!--        android:textColor="@color/colorWhite"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/imageView"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.491"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.833" />-->
+
+    <Button
+        android:id="@+id/donor"
+        android:layout_width="223dp"
+        android:layout_height="102dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/btn_bg"
+        android:text="Donor"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/Labor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Labor"
+        android:layout_width="223dp"
+        android:layout_height="102dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/btn_bg"
+        android:text="Labor"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="388dp"
+        android:layout_height="266dp"
+        app:layout_constraintBottom_toTopOf="@+id/donor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.659"
+        app:srcCompat="@drawable/ccm" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
